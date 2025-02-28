@@ -1,0 +1,125 @@
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+ 
+
+.main{ 
+    background-image: url(../23c939d7a450c1f0e2158b7eb8467c94.png);
+    height: 100vh;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex ;
+    
+}
+header{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    padding: 1rem;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+}
+button:hover{
+    color: red;
+}
+.titulo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vh;
+    color: white;
+    padding: 40vh;
+    font-size: 50px;
+    width: 100%;
+    
+
+}
+.body1{
+    background-image: url(../23c939d7a450c1f0e2158b7eb8467c94.png);
+    height: 100vh;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex ;
+    flex-direction:column ;
+    color: white;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 3rem;
+}
+img{
+    width: 100%;
+}
+.contenedor3{
+    background-color: white;
+    color: black;
+    
+}
+.contenedor4{
+    background-color: white; 
+    color: black;
+}
+.contenedor5{
+    background-color: white;
+    color: black;
+    
+}
+.minicontenedor1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    padding-top: 3rem;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+h3{
+    padding-left: 2rem;
+    padding-top: ;
+}
+.container1{
+    padding-left: 2rem;
+}
+.parrafo1{
+    padding: 1rem;
+}
+
+@media only screen and (max-width:440px){
+
+.main{
+    background-size: inherit;
+    
+
+}
+.titulo{
+    padding: 1rem;
+    padding-top: 10rem;
+    
+}
+.contenedor2{
+    flex-direction: column;
+}
+}
